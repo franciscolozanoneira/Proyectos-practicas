@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DAM2_PMM_UT2_Actividad3_MarcosMartinez-FranciscoLozano</string>
+    <string name="mostrar_frases">Mostrar Frases</string>
+    <string name="descargar_nueva_frase">Descargar Nueva Frase</string>
+    <string name="eliminar_frases">Eliminar Frases</string>
+    <string name="app_con_frases_motivadoras">App con frases motivadoras</string>
+    <string name="autor">Autor</string>
+    <string name="texto_de_la_frase">Texto de la frase</string>
+</resources>
