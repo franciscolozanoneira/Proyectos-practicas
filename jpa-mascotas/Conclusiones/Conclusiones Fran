@@ -1,0 +1,26 @@
+
+
+Durante la realización de esta práctica aprendí a mapear clases Java a tablas de bases de datos usando JPA y EclipseLink, convirtiendo nuestras clases en
+entidades persistentes con `@Entity` y gestionando las claves primarias mediante `@Id` y `@GeneratedValue`. También comprendí cómo EclipseLink puede crear
+automáticamente las tablas y cómo usar `@Table` y `@Column` para que los nombres de tablas y columnas coincidan con los de una base de datos existente.
+
+La implementación de relaciones entre entidades, como `@OneToMany` y `@ManyToOne`, me permitió entender cómo modelar correctamente relaciones padre-hijo,
+en este caso entre propietarios y sus mascotas. Aprendí la importancia de atributos como `mappedBy` y `cascade` para definir la propiedad de la relación y
+propagar operaciones entre entidades relacionadas.
+
+En cuanto al CRUD, vi cómo crear, leer, actualizar y eliminar registros usando `EntityManager` con `persist()`, `find()`, la modificación directa de atributos y
+ `remove()`. También entendí la relevancia de las transacciones mediante `begin()`, `commit()` y `rollback()` para garantizar la integridad de los datos.
+
+El uso de JPQL me permitió hacer consultas orientadas a objetos en lugar de SQL directo, facilitando un enfoque más natural y desacoplado de la base de datos.
+Además, al trabajar con fechas usando `LocalDate` y `DateTimeFormatter`, aprendí a convertir cadenas y a gestionar valores nulos, como en la fecha de
+fallecimiento de una mascota.
+
+Finalmente, esta práctica me enseñó cómo EclipseLink maneja el ciclo de vida de las entidades y sincroniza automáticamente los cambios al hacer `commit()`,
+así como la importancia de configurar correctamente el `persistence.xml` según se quiera crear, modificar o usar un esquema existente. En conjunto, la experiencia
+permitió combinar conceptos de bases de datos con programación orientada a objetos, automatizando operaciones y creando aplicaciones robustas con entidades
+relacionadas y persistencia eficiente de datos.
+
+
+
+
+
